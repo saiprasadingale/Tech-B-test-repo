@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import add
+from .views import *
 
 
 urlpatterns=[
-    path('',)
+    path('v1/',Addtask)
 ]
